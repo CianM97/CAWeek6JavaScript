@@ -1,0 +1,18 @@
+body#page1{
+	background-color: skyblue;
+}
+body#page2{
+	background-color: yellow;
+}
+
+p{
+	color: blue;
+}
+
+button{
+	border: solid black;
+}
+
+script{
+	border: solid black;
+}

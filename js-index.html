@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <title>JS demo</title>
+	<!-- my CSS  -->
+	<link rel="Stylesheet" href="Style/style.css" >
+	
+	<!-- javascript -->
+	<script type="text/javascript">
+		//javascript goes here inside script tags
+		//document.write("Hi"); //write direct to webpage
+		document.write("<h1>Hello World!</h1>"); //using HTML tags
+		
+		//this is a var declare and value assigned
+		var name = "Jo";
+		document.write("Hi " + name+ "\n how are you? "); //making use of the variable
+		
+		//variables to take the users first and second name then print there full name on the screen 
+		var firstName;
+		firstName = prompt("Enter your first name");
+		
+		var secondName;
+		secondName = prompt("Enter your second name");
+		
+		var fullName = firstName + " " + secondName;
+		document.write("<br>Hello " + fullName);
+		
+		
+		
+		
+		
+	</script>
+  </head>
+  <body id="page1">
+	<p>my paragraph</p>
+	<a href="page2.html">Page 2</a>
+	<br>
+	<br>
+	
+	<!-- button so that when the user clicks the time and date is showed -->
+	<button type="button"
+	onclick="document.getElementById('demo').innerHTML = Date()">
+	Click me to display Date and Time.</button>
+
+	<p id="demo"></p>
+	
+	
+  </body>
+</html>

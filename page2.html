@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>JS demo</title>
+	<!-- my CSS  -->
+	<link rel="Stylesheet" href="Style/style.css" >
+	
+	<!-- javascript -->
+	<script type="text/javascript">
+		//javascript goes here inside script tags
+		
+		document.write("<h1>Hello Page 2</h1>"); //using HTML tags
+		
+		//variables to store the users inputs
+		var number1;
+		var number2;
+		var sum;
+		
+		//ask the user to input 2 numbers
+		number1 = parseInt(prompt("Enter your first number"));
+		number2 = parseInt(prompt("Enter your second number"));
+		
+		//if statemts, if the first number is bigger than the second multiply them
+		if(number1 > number2){
+			sum = number1 * number2;
+			document.write("Your inputs were multipled " + sum);
+		} 
+		//if statemts, if the first number is smaller than the second add them
+		if (number1 < number2){
+			sum = number1 + number2;
+			document.write("Your inputs were added together " + sum);
+		}
+		
+
+	</script>
+  </head>
+  <body id="page2">
+	<p>my paragraph</p>
+	<a href="js-index.html">Back</a>
+	
+  </body>
+</html>
